@@ -21,8 +21,6 @@ from pygments.token import Comment, Error, Generic, Keyword, Literal, Name, \
 
 class EPTStyle(Style):
     # pygments.styles.get_style_by_name('default')
-    styles[Keyword] = 'bold #FFFFFF'
-
     styles = {
         Comment.Multiline:              'italic #999988',
         Comment.Preproc:                'bold #999999',
@@ -85,3 +83,5 @@ class EPTStyle(Style):
         Operator:                       'bold #000000',
         Text.Whitespace:                '#bbbbbb',
     }
+    
+    # self.styles[Keyword] = 'bold #FFFFFF'
