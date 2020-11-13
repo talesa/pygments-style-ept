@@ -22,7 +22,7 @@ from pygments.token import Comment, Error, Generic, Keyword, Literal, Name, \
 class EPTStyle(Style):
     styles = pygments.styles.get_style_by_name('default').styles
     
-    styles[Generic.Emph] = 'bold #0000FF'
+    styles[Generic.Emph] = 'bold #0054a9'
     
     # styles = {
     #     Comment.Multiline:              'italic #999988',
