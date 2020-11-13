@@ -19,7 +19,8 @@ from pygments.token import Comment, Error, Generic, Keyword, Literal, Name, \
      Operator, Text
 
 
-class EPTStyle(pygments.styles.get_style_by_name('default')):
+class EPTStyle(Style):
+    # pygments.styles.get_style_by_name('default')
     styles[Keyword] = 'bold #FFFFFF'
 
     styles = {
